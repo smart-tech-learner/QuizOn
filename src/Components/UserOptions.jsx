@@ -67,7 +67,7 @@ const UserOptions = () => {
           <textarea
             className="px-2 py-2 rounded-lg mb-3"
             rows="3"
-            cols="60"
+            cols="30"
             onChange={() => onEnterCustomPrompt(event)}
             placeholder="type topics that you might want to challenge... "
           />

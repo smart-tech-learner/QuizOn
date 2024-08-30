@@ -72,8 +72,8 @@ const Challenge = () => {
                 <p> Please wait.....</p>
               </div>
             </div>
-            <div>
-              <img className="h-96 pb-20" src={loading} alt="loading" />
+            <div className="mb-20">
+              <img className="h-80" src={loading} alt="loading" />
             </div>
           </div>
         </div>

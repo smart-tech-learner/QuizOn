@@ -17,8 +17,8 @@ const ReviewQuiz = () => {
   };
 
   return (
-    <div className="text-black w-full max-w-4xl mx-auto bg-white p-10 mt-10 rounded-lg mb-20">
-      <div className="flex justify-between bg-slate-300 p-3">
+    <div className="text-black w-full max-w-4xl mx-auto bg-white p-3 mt-10 rounded-lg mb-20">
+      <div className="flex justify-between bg-slate-300 p-1">
         <div>
           <div className="flex">
             <p className="font-bold">Category</p>

@@ -64,9 +64,9 @@ const Tests = (props) => {
 
     let alertMsg = "";
     if (count > 1) {
-      alertMsg = `${count} out of ${props.masterQuiz.length} questions have been left unanswered.\nDo you still want to Submit th quiz?`;
+      alertMsg = `${count} out of ${props.masterQuiz.length} questions have been left unanswered.\nDo you still wish to submit the response?`;
     } else {
-      alertMsg = `Are you sure you want to submit the quiz?`;
+      alertMsg = `Are you sure you want to submit the response?`;
     }
     if (confirm(alertMsg)) {
       let score = 0;

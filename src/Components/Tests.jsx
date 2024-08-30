@@ -94,7 +94,7 @@ const Tests = (props) => {
   return (
     <div>
       {!showScoreCard && (
-        <div className="w-full max-w-4xl mx-auto bg-gray-300 p-10 mt-20 rounded-lg mb-10">
+        <div className="w-full max-w-4xl mx-auto bg-gray-300 p-10 mt-20 rounded-lg mb-40">
           <div>
             <p className="text-2xl font-bold">
               {quesToLoad?.id}. {quesToLoad?.ques}

@@ -7,7 +7,7 @@ const ScoreCard = () => {
   const state = useSelector((state) => state.quiz);
 
   return (
-    <div className="w-full max-w-2xl mx-auto bg-white mt-20 rounded-lg">
+    <div className="w-full max-w-2xl mx-auto bg-white mt-20 rounded-lg mb-52">
       <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-0">
         <img className="h-full pb-5 pl-2" src={score_card} alt="score_card" />
         <div className="content-center flex justify-center items-center -ml-24">

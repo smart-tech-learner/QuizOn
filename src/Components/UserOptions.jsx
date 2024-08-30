@@ -58,7 +58,7 @@ const UserOptions = () => {
   };
 
   return (
-    <div className="p-10">
+    <div className="p-5 pb-40">
       <p className="text-2xl font-bold text-white pt-10">
         Just a couple of questions before we prepare your Quiz...
       </p>
